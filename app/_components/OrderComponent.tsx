@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { ChevronLeft, ChevronRight, Plus } from "lucide-react";
 
 const OrderComponent = () => {
@@ -128,19 +128,6 @@ const OrderComponent = () => {
           </div>
         )}
       </div>
-
-      {/* <style jsx>{`
-        @keyframes slideIn {
-          from {
-            opacity: 0;
-            transform: translateY(-20px) scale(0.8);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0) scale(1);
-          }
-        }
-      `}</style> */}
     </div>
   );
 };

@@ -6,5 +6,4 @@ services:
     container_name: shahr-project
     ports:
       - "6006:6006"
-   
     restart: unless-stopped
